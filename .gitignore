@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# API Keys - NEVER COMMIT
+.env
+.env.local
+*.key
+secrets/
+config/api_keys.yaml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+logs/
+temp/
+cache/
+models/
+*.pth
+*.onnx
+
+# Large files
+*.mp4
+*.wav
+*.mp3
+live2d-models/*.zip
